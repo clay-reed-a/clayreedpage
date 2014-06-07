@@ -12,17 +12,33 @@ body {
 	font-family: 'Oswald', sans-serif;
 }
 
-header h1, section p {
+header h1, section p, div p {
+	font-weight: bold;
 	font-size: 3.5em;
 } 
+
+section {
+	font-style: italic;
+}
 
 a {
 	text-decoration: none;
 }
 
-div img {
-	height: 12em;	
-	padding: 1em;
+div div img {
+	height: 12.25em;
+	margin: -.25em;
+}
+
+div div.wrapper {
+	overflow: hidden;
+	margin: auto;
+	height: 11.8em;
+	width: 11.8em;
+	border-radius: 7.75em;
+	border-color: black; 
+	border-width: .5em;
+	border-style: dotted;
 }
 
 .off {
