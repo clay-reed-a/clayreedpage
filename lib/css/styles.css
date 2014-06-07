@@ -1,0 +1,6 @@
+/* poor man's reset */
+
+* {
+	margin: 0;
+	padding: 0;
+}
