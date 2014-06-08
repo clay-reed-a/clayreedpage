@@ -23,12 +23,16 @@ a:hover section, a:active section {
 
 } 
 
-header h1, section p, div p {
+header h1, section p {
 	font-weight: bold;
 	font-size: 3.5em;
 } 
 
 header p {
+	font-size: 2em;
+}
+
+div p {
 	font-size: 2em;
 }
 
