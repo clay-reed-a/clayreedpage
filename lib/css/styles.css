@@ -23,8 +23,7 @@ a:hover section, a:active section {
 
 } 
 
-header h1, section p {
-	font-weight: bold;
+header h1 {
 	font-size: 3.5em;
 } 
 
@@ -32,8 +31,17 @@ header p, div p {
 	font-size: 2em;
 }
 
+header p {
+	margin-top: -.5em;
+}
+
 section {
 	font-style: italic;
+	font-size: 3em;
+}
+
+div small {
+	font-size: 1.15em;
 }
 
 .off {
