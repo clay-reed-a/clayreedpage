@@ -1,1 +1,1 @@
-exclude: [config.codekit, README.md]
+exclude: [config.codekit, README.md, README.html]
