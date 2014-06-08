@@ -5,6 +5,10 @@
 	padding: 0;
 }
 
+small {
+	display: block;
+}
+
 /* layout & styles */
 
 body {
@@ -41,7 +45,9 @@ section {
 }
 
 div small {
+	margin-top: .3em;
 	font-size: 1.15em;
+	line-height: 135%%;
 }
 
 .off {
