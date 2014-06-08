@@ -41,13 +41,13 @@ section {
 }
 
 .off {
-	background-color: black;
+	background-color: #222222; /* impure black */
 	color: white;
 }
 
 .on {
 	background-color: white;
-	color: black;
+	color: #222222;
 }
 
 div div.wrapper {
@@ -56,7 +56,7 @@ div div.wrapper {
 	overflow: hidden;
 	margin: auto;
 	border-radius: 7.75em;
-	border-color: black; 
+	border-color: #222222; 
 	border-width: .25em;
 	border-style: dotted;
 }
