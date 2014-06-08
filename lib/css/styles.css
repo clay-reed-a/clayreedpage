@@ -16,10 +16,21 @@ a {
 	text-decoration: none;
 }
 
+a:hover section, a:active section {
+	background-color: #827070; /* should be gray w/ subliminal red*/
+	color: #0A4646; /* blue-ish */
+	font-style: normal;
+
+} 
+
 header h1, section p, div p {
 	font-weight: bold;
 	font-size: 3.5em;
 } 
+
+header p {
+	font-size: 2em;
+}
 
 section {
 	font-style: italic;
