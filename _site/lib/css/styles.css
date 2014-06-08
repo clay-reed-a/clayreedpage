@@ -12,6 +12,10 @@ body {
 	font-family: 'Oswald', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 header h1, section p, div p {
 	font-weight: bold;
 	font-size: 3.5em;
@@ -19,26 +23,6 @@ header h1, section p, div p {
 
 section {
 	font-style: italic;
-}
-
-a {
-	text-decoration: none;
-}
-
-div div img {
-	height: 12.25em;
-	margin: -.25em;
-}
-
-div div.wrapper {
-	overflow: hidden;
-	margin: auto;
-	height: 11.8em;
-	width: 11.8em;
-	border-radius: 7.75em;
-	border-color: black; 
-	border-width: .5em;
-	border-style: dotted;
 }
 
 .off {
@@ -49,4 +33,36 @@ div div.wrapper {
 .on {
 	background-color: white;
 	color: black;
+}
+
+div div.wrapper {
+	height: 11.8em;
+	width: 11.8em;
+	overflow: hidden;
+	margin: auto;
+	border-radius: 7.75em;
+	border-color: black; 
+	border-width: .25em;
+	border-style: dotted;
+}
+
+div div img {
+	height: 12.25em;
+	margin: -.25em;
+}
+
+div small#message {
+	display: none;
+}
+
+/* media queries */
+
+@media print {
+	section, header, div p, div small {
+		display: none;
+	}
+	div small#message {
+		margin-top: 1.5em;
+		display: block; 
+	}
 }
