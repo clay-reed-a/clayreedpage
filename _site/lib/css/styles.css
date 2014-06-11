@@ -114,21 +114,8 @@ header h1, section p, header p, div p {
 
 	div small {
 		font-size: 1.725em;
-	}
-
-	div div#wrapper {
-		height: 17.7em;
-		width: 17.7em;
-		border-radius: 11.625em;
-		border-width: 0.375em;
-	}
-
-	div div#wrapper img {
-		height: 18.375em;
-		margin: -.375em;
-	}
-
-}
+	
+}}
 
 @media only screen and (max-width:715px){
 	header h1 {
@@ -143,6 +130,10 @@ header h1, section p, header p, div p {
 		font-size: 2em;
 	}
 
+	div img {
+		max-width: 310px;
+	}
+
 	div small {
 		font-size: 1em;
 	}
@@ -154,4 +145,5 @@ header h1, section p, header p, div p {
 	.show {
 		display: block;
 	}
+
 }
