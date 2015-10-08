@@ -25,11 +25,11 @@ a:hover section, a:active section {
 	color: #0A4646; /* blue-ish */
 	font-style: normal;
 
-} 
+}
 
 header h1 {
 	font-size: 3.5em;
-} 
+}
 
 header p, div p {
 	font-size: 2em;
@@ -46,7 +46,7 @@ section {
 }
 
 div p {
-	margin-bottom: .3em; 
+	margin-bottom: .3em;
 }
 
 div small {
@@ -83,27 +83,20 @@ div small#message {
 
 /* media queries */
 
-header h1, section p, header p, div p {
-	transition: font-size .6s linear; 
-    -o-transition: font-size .6s linear; 
-    -moz-transition: font-size .6s linear; 
-    -webkit-transition: font-size .6s linear;
-}
-
 @media print {
 	section, header, div p, div small {
 		display: none;
 	}
 	div small#message {
 		margin-top: 1.5em;
-		display: block; 
+		display: block;
 	}
 }
 
 @media only screen and (min-width:1400px) {
 	header h1 {
 		font-size: 5.25em;
-	} 
+	}
 
 	header p, div p {
 		font-size: 3em;
@@ -115,13 +108,13 @@ header h1, section p, header p, div p {
 
 	div small {
 		font-size: 1.725em;
-	
+
 }}
 
 @media only screen and (max-width:715px){
 	header h1 {
 		font-size: 2.175em;
-	} 
+	}
 
 	header p, div p {
 		font-size: 1.6em;
