@@ -1,9 +1,9 @@
-clayreed page 
+clayreed page
 =============
 
 My personal webpage.
 
-Use made of `jekyll`, [GIMP][] & the wonderful [CodeKit][]. 
+Use made of `jekyll`, [GIMP][] & the wonderful [CodeKit][].
 
 
 
