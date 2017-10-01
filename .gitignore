@@ -1,11 +1,12 @@
 # Mac OS X
-.DS_Store 
+.DS_Store
 
-# jekyll 
-_site 
+# jekyll
+_site
 
-# Codekit 
-config.codekit 
+# Codekit
+config.codekit
+_writing/*.html # seems cannot directly import markdown
 
-# personal 
+# personal
 notes.md
