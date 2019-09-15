@@ -1,1 +1,0 @@
-exclude: [config.codekit, README.md, '*.kit', _partials, _writing, _src]
