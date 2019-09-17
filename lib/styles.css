@@ -10,6 +10,7 @@ main {
   -webkit-scroll-snap-type: y mandatory;
   -ms-scroll-snap-type: y mandatory;
   scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
 }
 
 section {
