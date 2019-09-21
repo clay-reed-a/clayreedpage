@@ -10,6 +10,7 @@ html {
 }
 
 html, body {
+  background-color: #f7f7f6;
   height: 100%;
 }
 
@@ -26,8 +27,8 @@ main {
 
 section {
   display: block;
-  background-color: #f5f2d0;
-  color: #0a0d2f;
+  background-color: #f7f7f6;
+  color: #373D3F;
   -webkit-scroll-snap-align: start;
   -ms-scroll-snap-align: start;
   scroll-snap-align: start;
@@ -37,8 +38,10 @@ section {
 }
 
 section:first-of-type {
-  color: #f5f2d0;
-  background-color: #0a0d2f;
+  color:  #f7f7f6;
+  background-color: #373D3F;
+
+
 }
 
 section:last-of-type {
@@ -63,8 +66,8 @@ section:last-of-type {
   transform: translate(-50%, 50%);
   border-radius: 50%;
   width: 80px; height: 80px;
-  background-color: #f5f2d0;
-  color: #0a0d2f;
+  background-color: #f7f7f6;
+  color: #373D3F;
   cursor: pointer;
   border: none;
   padding-bottom: 25px;
