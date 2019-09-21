@@ -41,6 +41,10 @@ section:first-of-type {
   background-color: #0a0d2f;
 }
 
+section:last-of-type {
+  height: 100vh;
+}
+
 #tree {
   z-index: 1;
   top: 0; right: 0;
